@@ -14,7 +14,7 @@ return (
     <div className="divisor divisorOculto"></div>
     <div className="testimonios">
         <div className="titulosRojos">TESTIMONIOS</div>
-        <p className="testimoniosSubtitulo">Los clientes dicen</p> 
+        <p className="testimoniosSubtitulo control">Los clientes dicen</p> 
         <div className="testimoniosContenedor">
             <div className="testimonios-box">
                 <div className="margenAbajo">

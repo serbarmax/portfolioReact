@@ -24,7 +24,6 @@ return (
            <button className="btnDownload">
                 <a href={pdf} target="_blank" className="link">DESCARGAR CV</a>
             </button>
-            <button className="botonMenu"><i className="bi bi-list"></i></button>
         </nav>
     </header>
 );

@@ -12,7 +12,7 @@ return (
     <div className="mainExperiencia">
         <div className="contenedorTitulo">
             <p className="titulosRojos">AÑOS DE EXPERIENCIA</p>
-            <p className="textogrande">Resumen</p> 
+            <p className="textogrande control">Resumen</p> 
         </div>
         <div className="experienciaContenedor">
             <div className="columna">

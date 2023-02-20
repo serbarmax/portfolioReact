@@ -76,6 +76,8 @@
 	color: #c8d8e8;
 }
 
+
+
 /***************************************/
 /*             ZONA RESPONSIVA         */
 /***************************************/
@@ -93,6 +95,7 @@ a la mínima */
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		flex-basis: 1;
 	}
 	/* Div derecho zona texto hero  */
 	.showcaseImg {
@@ -121,6 +124,54 @@ a la mínima */
 	}
 }
 
+@media (max-width: 1053px) {
+	.ocultame {
+		display: none;
+	}
 
+body {
+	width: 100%;
+}
+}
 
+@media (max-width: 913px) {
+	.contenedorDatos {
+		display: none;
+	}
+	.contenedorForm{
+		width: 100%;
+	}
+}
 
+/************************************/
+/*         AJUSTES EN MENU          */
+/************************************/
+@media (max-width: 710px) {
+	body {
+		width: 100%;
+	 }
+    /*  .navbar ul {
+		display: none;
+	}  */
+	.navbar {
+		width: 90%;
+		display: flex;
+		/* flex-direction: column; */
+		/* align-items: center; */
+	}
+	.btnDownload {
+		display: none;
+	}
+	.logoyTexto {
+		display: none;
+	}
+	.seoculta {
+		display: hidden; 
+	}
+    .control {
+		font-size: 50px;
+	}
+	.Menu {
+		display: block;
+	}
+}

@@ -107,9 +107,9 @@
 	padding: 14px;
 	margin: 20px 0px 30px 20px;
 	font-size: var(--tamanoFuenteChico);
-	font-family: var(--fuenteNormal);
 	border-radius: 5px;
 	background-color: #181818;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	border: 0;
 	color: #fff;
 	outline: none;
@@ -154,4 +154,57 @@
 	margin: 0 auto;
 	text-align: center;
 	color: #c8d8e8;
+}
+@media (max-width: 913px) {
+	.contenedorDatos {
+		display: none;
+	}
+	.contenedorForm{
+		width: 100%;
+	}
+}
+
+/************************************/
+/*         AJUSTES EN MENU          */
+/************************************/
+@media (max-width: 710px) {
+	.botonMenu {
+		position: absolute;
+		display: block;
+		float: right;
+		top: 20%;
+		left: 5%;
+		text-align: right;
+	}
+	body {
+		width: 100%;
+	}
+    .navbar ul {
+		display: none;
+	}
+	.navbar {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.seoculta {
+		display: hidden; 
+	}
+
+    .control {
+		font-size: 20px;
+	}
+	.contenedorGrupoCampos {
+		display: flex;
+		flex-direction: column;
+	}
+	.nombre, .telefono, .email, .asunto {
+		 text-align: center;
+		 margin: 10px 10px 10px 10px;
+		 width: 100%;
+	}
+	.mensaje {
+		width: 85%;
+	}
 }

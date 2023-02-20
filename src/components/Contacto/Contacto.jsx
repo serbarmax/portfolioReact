@@ -11,7 +11,7 @@ return (
         <div>
             <div className="contactoTitulos">
                 <p className="titulosRojos">CONTACTO</p>
-                <p className="textogrande">Contactesé conmigo</p>
+                <p className="textogrande control">Contactesé conmigo</p>
             </div>
         </div>
         
@@ -47,14 +47,14 @@ return (
             <div className="contenedorForm">
                 <form action="https://formsubmit.co/18eee1a7bdaf9c1dde1b948d803e4c72" method="post" >
                     <div className="contenedorGrupoCampos">
-                        <input type="text"   name="nombre" required  size="40"  placeholder="* Ingrese su nombre y apellido" className="nombre" />
-                        <input type="text"   name="telefono" size="40"  placeholder="Ingrese su teléfono" className="telefono" />
-                        <input type="email"  name="email"  required  size="40"  placeholder="* Ingrese su correo" className="email" /> 
-                        <input type="text"   name="asunto" required  size="40"  placeholder="* Ingrese asunto" className="asunto" />
-                        <textarea name="comentario" cols="40" required rows="18" placeholder="* Ingrese su mensaje" className="comentario" />
+                        <input type="text"   name="nombre" required  size="40"   placeholder="* Ingrese su nombre y apellido" className="nombre" />
+                        <input type="text"   name="telefono" size="40"           placeholder="Ingrese su teléfono"           className="telefono" />
+                        <input type="email"  name="email"  required  size="40"   placeholder="* Ingrese su correo"          className="email" /> 
+                        <input type="text"   name="asunto" required  size="40"   placeholder="* Ingrese asunto"            className="asunto" />
+                        <textarea name="comentario" cols="40" required rows="14" placeholder="* Ingrese su mensaje"       className="comentario" />
                     </div>
                     <input type="hidden" name="_subject" value="Correo desde mi Porfolio" />
-                    <input type="hidden" name="_next" value="http://localhost:8000" />
+                    <input type="hidden" name="_next"    value="https://portfolio-react-six-rust.vercel.app" />
                     <input type="hidden" name="_catpcha" value="false" />
                     <div className="contactoEnviar">
                         <button type="submit" className="btn btn-enviar  icon-cuadro ">

@@ -28,6 +28,7 @@
     color: #f70838;  
 	rotate: 180deg;
 	font-size: 20px;
+	margin-left: 10px;
 }
 .star{
 	color: #f70838;
@@ -67,4 +68,35 @@
 	width: 35px;
 	float: left;
 	margin-right: 15px;
+}
+
+
+@media (max-width: 710px) {
+	.botonMenu {
+		position: absolute;
+		display: block;
+		float: right;
+		top: 20%;
+		left: 5%;
+		text-align: right;
+	}
+	body {
+		width: 100%;
+	}
+    /* .navbar ul {
+		display: none;
+	} */
+	.navbar {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.seoculta {
+		display: hidden; 
+	}
+	
+    .control {
+		font-size: 30px;
+	}
 }

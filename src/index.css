@@ -53,7 +53,7 @@ body {
 	color: #f70838;
 }
 .divisor {
-	background-color: var(--backgroundColor); 
+	background-color: #282828; 
 	height: 110px;
 }
 .divisorOculto {

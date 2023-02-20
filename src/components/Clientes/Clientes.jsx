@@ -17,7 +17,7 @@ return (
         <div className="clientes">
             <div className="clientesTitulos">
                 <p className="titulosRojos">MEJORES CLIENTES</p>
-                <p className="clienteSubtitulo">Clientes Seleccionados</p>
+                <p className="clienteSubtitulo control">Clientes Seleccionados</p>
             </div>
             <div className="contenedorClientes">
                 <div className="clientes-box">
@@ -60,7 +60,7 @@ return (
                         <img src={clienteLogo8} alt=""  className="clientesImg icon-cuadro" />
                     </a>
                 </div>
-            </div>)
+            </div>
         </div>
     </section>
 )

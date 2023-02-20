@@ -7,7 +7,7 @@ return (
     <div className="contenedorHero">
         <div className="showcaseRowTitle">
             <p className="hello">Hola, <span className="hello2">soy</span></p>
-            <p className="texto-grande">Max Barreira</p>
+            <p className="texto-grande control">Max Barreira</p>
             <p className="designer">Diseñador y Desarrollador Web</p>
             <p className="textoNormal marginR20">Lidero una empresa dedicada al desarrollo web, ofrecemos desde exclusivos diseños de sitios web hasta desarrollo de aplicaciones web para negocios cualquiera sea su complejidad. Nuestros especialistas ayudarán a que su empresa pueda estar presente en Internet, desarrollando aplicaciones web que se adaptan completamente a las necesidades de su emprendimiento.</p>
             <p className="sigueme">SIGUEME EN </p>

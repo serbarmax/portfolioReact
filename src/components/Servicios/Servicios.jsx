@@ -9,7 +9,7 @@ const  Servicios=() => {
     <div className="divisorOculto"></div>
     <div className="mainServices">
         <p className="titulosRojos">MIS SERVICIOS</p>
-        <p className="textogrande">Sectores de Actividad</p>
+        <p className="textogrande control">Sectores de Actividad</p>
         <div className="cajasServicios">
             <div className="cajaServiciosBox">
                 <i className="bi bi-cast pc iconosRojos"></i>
