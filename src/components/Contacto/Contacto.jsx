@@ -54,7 +54,7 @@ return (
                         <textarea name="comentario" cols="40" required rows="14" placeholder="* Ingrese su mensaje"       className="comentario" />
                     </div>
                     <input type="hidden" name="_subject" value="Correo desde mi Porfolio" />
-                    <input type="hidden" name="_next"    value="https://portfolio-react-six-rust.vercel.app" />
+                    <input type="hidden" name="_next"    value="https://portfolio-react-six-rust.vercel.app/" />
                     <input type="hidden" name="_catpcha" value="false" />
                     <div className="contactoEnviar">
                         <button type="submit" className="btn btn-enviar  icon-cuadro ">

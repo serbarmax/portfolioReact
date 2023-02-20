@@ -89,7 +89,7 @@ a la mínima */
 /* Tratamiento de NavBar y activación divs ocultos */
 
 @media (max-width: 1080px) {
-	/* Se pone en clumna logo, menú y botón descargar currículum  */
+	/* Se pone en columna logo, menú y botón descargar currículum  */
 	.navbar  {
 		width: 90%;
 		display: flex;
@@ -97,7 +97,7 @@ a la mínima */
 		align-items: center;
 		flex-basis: 1;
 	}
-	/* Div derecho zona texto hero  */
+	/* Div derecho zona texto hero  se anula la foto de persona para mas lugar */
 	.showcaseImg {
 		width: 1%;
 		display: none;
@@ -182,3 +182,4 @@ body {
 		z-index: 0;
 		display: none;
 	}
+}
