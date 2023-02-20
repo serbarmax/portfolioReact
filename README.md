@@ -1,71 +1,11 @@
-# Getting Started with Create React App
+Proyecto clonación diseño de Behance, sitio web Portfolio Landing page. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# portfolioReact
+Se fue creando desde cero tomando los colores de la web en vivo. La imagen provista por el sitio web esta pixelada, no tiene tan buena calidad para tomarle los clores ya que tiene degradé en muchos lugares y se veía cuadriculado haciendo difícil obtener los mismos de distintos lugares.
+La fuente del sitio tuvo que ser interpretada sacando fotos y subiendo a sitios que leen la imagen buscando letras para obtener un nombre de fuente, descubriendo que tenía una decoración llama Palo Seco y podrían caber varias fuentes con esa decoración, se optó por la más parecida pero no es la misma. Las mismas se proveen en forma externa y se encuentran en el hosting. 
+Esta fuente obtenida no tiene números por ende hubo que cambiar la fuente para poder representarlos. 
+El sitio no es de pantalla completa y contiene de fondo como una imagen de un sol medio apagado, que se realizaó con Photoshop y se dio continidad negra en toda la pantalla como se puede visualizar en el diseño. 
+Las secciones presentadas en la Landing Page son más de las que tiene el menú original, se incluyó las que entraron y se omitió una (Clientes) porque no entraba. 
+Se trató de crear variables globales para normalizar y optimizar los tamaños y colores pero cuando se pasó a React, se tuvo que cambiar la organización y en algunos casos asignarle los valores directos.
+Se pudo fraccionar el código HTML y CSS en bloques para que pudieran funcionar en conjunto y se crearon las carpetas, archivos y estilos correspondientes para la unión de las mismas en una sola Landing Page. Se eligió un modo gratuito para enviar los correos y este método presenta una página con información de que fue enviado exitosamente el correo para luego volver a donde estaba, el sitio en su documentación informa que existen parámetros que se pueden enviar en campos hidden (ocultos) para que se puedan aumentar las funcionalidades pero no se pudo evitar la pantalla de enviado que es ajena al sitio web que se está presentando. 
+La parte responsiva fue compleja dada la dificultad que presentaba el sitio en distintas secciones. 
+Se pudo subir correctamente a GitHub y deployar el sitio exitosamente. 
