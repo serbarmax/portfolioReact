@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --paddingCostado: 70px;
+  --blanco: #fff;
+  --colorTextoApagado: #adb2ba;
+  --backgroundColor: #282828;
+  --tamanoFuenteLogo: 26px;
+  --tamanoFuenteChico: 16px;
+  --tamanoFuenteMedio: 36px;
+  --tamanoFuenteGrande: 70px;
+  --fuenteNormal: 'Altone';
+  --fuenteGorda: 'Altone Bold';
 }
+/*****************************/
+/* FALTA IMPORTAR LAS FUENTE */
+/*****************************/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Altone';
+    src: url('../src/components/fonts/AltoneTrial-Regular.ttf') format('truetype');
+    font-style:	normal;
+    font-weight: 400px;
+  }
+  @font-face {
+    font-family: 'Altone Bold';
+    src: url('../src/components/fonts//AltoneTrial-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600px;
+  }
+
+* {
+	padding: 0;
+	margin: 0;
+ 	box-sizing: border-box; 
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-image: url('../src/components/Assets/sol.jpg');
+	background-repeat: no-repeat;
+	font-family: 'Altone', sans-serif;
+	color: var(--blanco);
+    background-color: #000;
+	max-width: 94%;
+	margin: 0 auto;
+}
+.titulosRojos {
+	color: #f70838;
+	font-size: var(--tamanoFuenteChico);
+	line-height: 30px;
+}
+.iconosRojos {
+	color: #f70838;
+}
+.divisor {
+	background-color: var(--backgroundColor); 
+	height: 110px;
+}
+.divisorOculto {
+	display: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+/* OCULTAMOS BOTON HAMBURGUESA */
+.botonMenu {
+    display: none;
+}
+.numeros {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

@@ -1,0 +1,70 @@
+.testimonios {
+	display: flex;
+	flex-direction: column;
+	padding: 0px var(--paddingCostado) 0px var(--paddingCostado);
+	border-bottom: #202020 2px solid;	
+	border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+	padding-bottom: 50px;
+	background-color: var(--backgroundColor); 
+}
+.testimoniosSubtitulo {
+	font-family: 'Altone Bold';
+    font-size: var(--tamanoFuenteGrande);
+	margin-bottom: 50px;
+}
+.testimoniosContenedor {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.textoChico {
+	font-size: 13px;
+	line-height: 18px;
+	color: var(--colorTextoApagado);
+}
+.quote {
+    color: #f70838;  
+	rotate: 180deg;
+	font-size: 20px;
+}
+.star{
+	color: #f70838;
+	font-size: 13px;
+}
+
+.testimonios-box {
+	display: block;
+	color: #c8d8e8;
+	text-align: left;
+	height: 370px;
+	padding: 30px;
+	margin: 9px;
+	width: 355px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px 4px rgba(0.1, 0.1, 0.1, 0.1);    
+	background: rgb(48,48,48);
+	background: linear-gradient(130deg, rgba(48,48,48,1) 0%, rgba(41,41,41,1) 100%);
+}
+.margenAbajo {
+	margin-bottom: 20px;
+}
+.estrellasContenedor {
+	display: flex;
+    float: right;
+    margin-bottom: 20px;
+}
+.imagenPersona {
+	margin-top: 30px;
+
+}
+.nombrePersonaTestimonio {
+	font-size: 15px;
+}
+.imgTestimonio {
+	border-radius: 80px;
+	width: 35px;
+	float: left;
+	margin-right: 15px;
+}

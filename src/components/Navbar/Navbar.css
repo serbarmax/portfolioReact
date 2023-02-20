@@ -1,0 +1,126 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	border-radius: 20px 20px 0 0;
+	width: 94%;
+	position: fixed;
+	z-index: 100; 
+	padding-bottom: 5px;
+	padding: 40px 70px 0 70px;
+	background-color: var(--backgroundColor);
+	border-bottom: #202020 1px solid;	
+}
+.logoyTexto {
+	display: flex;
+	margin-top: 10px;
+	justify-content: space-between;
+	width: 210px;
+}
+.logo  {
+	color: #fff;
+	float: left;
+	padding-top: 10px;
+	font-size: 26px;
+	font-family: 'Altone Bold';
+}
+.navbar ul {
+	margin-top: 20px;
+	list-style: none;
+	float: right;
+}
+.navbar ul li {
+	float: left;
+}
+.navbar ul li a {
+	display: block;
+	padding: 4px;
+	text-align: center;
+    font-size: 13px;
+	color: #adb2ba;
+}
+.navbar ul li a:hover {
+	color: #ffffff;
+}
+.btnDownload {
+	height: 40px;
+	width: 170px;
+	margin-top: 10px;
+	font-size: 14px;
+    border: 0px;
+    background-color: #EF0850;
+    color: white;
+	border-radius: 20px;
+	position: relative;
+}
+.btnDownload:hover:after {
+	background: rgba(255, 255, 255, 0.3);
+	transition: all 0.3s ease;
+}
+.btnDownload:hover {
+	background-color:  #a50135;	
+	transition: all 1s ease;
+}
+.botonMenu {
+  cursor: pointer;	
+}
+.icon-cuadro:hover:after {
+	background: rgba(255, 255, 255, 0.3);
+	transition: all 0.2s ease;
+}
+.icon-cuadro:hover {
+	background-color:  #a50135;	
+	transition: all 0.5s ease;
+}
+.colorTexto{
+	color: #c8d8e8;
+}
+
+/***************************************/
+/*             ZONA RESPONSIVA         */
+/***************************************/
+/* La zona responsiva no se hizo calculando 
+resoluciones específicas, si no que, a medida que
+se iba reduciendo se iba corrigiendo hasta llegar
+a la mínima */
+
+/* Tratamiento de NavBar y activación divs ocultos */
+
+@media (max-width: 1080px) {
+	/* Se pone en clumna logo, menú y botón descargar currículum  */
+	.navbar  {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	/* Div derecho zona texto hero  */
+	.showcaseImg {
+		width: 1%;
+		display: none;
+	}
+	/* Se acerca el menú al logo */
+	.navbar ul {
+		margin-top: 5px;
+	}
+	/* Div izquierdo zona texto hero  */
+	.showcaseRowTitle {
+		max-width: 100%;
+	}
+    /* Al estiarse hacia abajo el menú en clumna se extiende el margen de body hacia abajo 
+	así quedan visibles los encabezados de las zonas accesibles por menú	 */
+	.contenedorHero{
+		padding-top: 200px;
+	} 
+	/* El divisor oculto se muestra para aumentar el top de la zona de encabezado de cada opción de menú 
+	ya que al estar estirado hacia abajo el menú tapa el encabezado de las mismas.  
+	el div separador puede usarse mas de una vez en alguna sección para aumentar el espacio.
+	*/
+	.divisorOculto {
+		display: block;
+	}
+}
+
+
+
+

@@ -1,0 +1,84 @@
+.contenedorHero {
+    display: flex;
+	padding: 230px var(--paddingCostado) 50px var(--paddingCostado);
+	background-color: var(--backgroundColor); 
+	border-bottom: #202020 2px solid;	
+}
+.showcaseRowTitle {
+	max-width: 60%;
+	word-wrap: break-word;
+}
+.showcaseImg {
+	width: 40% fixed;
+}
+.fotomodelo {
+	width: 100%;
+	border-radius: 0 0 10px 10px;
+}
+.hello2 {
+	font-size: var(--tamanoFuenteLogo);
+	color: #f70838;
+}
+.hello {
+    font-size: var(--tamanoFuenteLogo);
+	font-family:  'Altone';
+	margin-bottom: 4px;
+
+}
+.texto-grande {
+	font-family: 'Altone Bold';
+    font-size: var(--tamanoFuenteGrande);
+}
+.textoCopyright {
+	font-size: var(--tamanoFuenteChico);
+}
+.designer {
+	margin-bottom: 15px;
+	font-family:  'Altone';
+    font-size: var(--tamanoFuenteMedio); 
+	margin-bottom: 24px;
+}
+.marginR20 {
+	padding-right: 10px;
+}
+.textoNormal {
+	font-size: var(--tamanoFuenteChico);
+	line-height: 28px;
+	color: var(--colorTextoApagado);
+}
+.sigueme {
+	margin-top: 60px;
+	font-size: 18px; 
+}
+.boximagenes{
+	padding-top: 34px;
+    margin-bottom: 90px;
+}
+.boxpuntajes {
+    display: flex;
+	justify-content: space-between;
+	padding: 0 60px 0 0;
+
+}
+.icon-cuadro {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #181828;
+	font-size: 20px;
+    margin: 0 12px 0 0;
+	color: #fff;
+}
+.puntajes {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+.puntaje {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 13px;
+}
+
+.textopuntaje {
+    font-size: 12px;
+}

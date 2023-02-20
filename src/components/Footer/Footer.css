@@ -1,0 +1,21 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--backgroundColor);
+	padding: 50px var(--paddingCostado) 0 var(--paddingCostado);
+	border-radius: 0 0 20px 20px;
+}
+.footerLoguito {
+	text-align: center;
+}
+.footer-contenedor-iconos {
+	padding: 20px;
+	margin-top: 20px;
+}
+.textoCopyright {
+	line-height: 15px;
+	padding-top: 10px;
+	font-size: 9px;
+	padding-bottom: 50px;
+}

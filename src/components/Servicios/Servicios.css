@@ -1,0 +1,44 @@
+.mainServices{
+	padding: 0px var(--paddingCostado) 30px var(--paddingCostado);
+	border-bottom: #202020 2px solid;	
+	border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+	background-color: var(--backgroundColor); 
+}
+.textogrande {
+	font-family: 'Altone Bold';
+    font-size: var(--tamanoFuenteGrande);
+/*	margin-left: 10px; */
+	margin-bottom: 20px;
+}
+.serviciosTitulo {
+	line-height: 50px;
+	font-size: 1.1rem;
+}
+.serviciosTextoNormal {
+	font-size: 0.7em;
+	line-height: 20px;
+}
+.cajasServicios{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.cajaServiciosBox {
+	display: flex;
+	flex-direction: column;
+	width: 364px;
+	text-align: left;
+	border-radius: 5px;
+	padding: 30px;
+	height: 250px;
+	margin: 10px 0 10px 0;
+	box-shadow: 1px 1px 3px 4px rgba(0.1, 0.1, 0.1, 0.1);    
+	background: rgb(48,48,48);
+	background: linear-gradient(130deg, rgba(48,48,48,1) 0%, rgba(41,41,41,1) 100%);
+}
+.pc {
+	display: block;
+	font-size: 30px;
+}
