@@ -68,6 +68,10 @@
 		padding: 0px;
 	}
 	.footerIcon {
-		width: 30px;
+		width: 10px;
+		padding: 5px;
+	}
+	.icon-cuadro {
+		padding: 5px;
 	}
 }

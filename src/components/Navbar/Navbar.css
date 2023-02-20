@@ -174,4 +174,11 @@ body {
 	.Menu {
 		display: block;
 	}
-}
+	.mainHeader {
+		display: none;
+	}
+	.navbar {
+		position: relative;
+		z-index: 0;
+		display: none;
+	}

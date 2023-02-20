@@ -5,7 +5,7 @@ const Menu = () => {
     const [isOpen, setIsOpen] = useState(false)
     return(
         <div className="Menu">
-            <div className="nav_logo"> CODEA.APP </div>
+            <div className="nav_logo"> MAX DESIGN </div>
             <div className={`nav_items ${isOpen && "open"}`}>
                 <a href='#mainheader' className='colorTexto'>HOME</a>
                 <a href='#servicios'   className='colorTexto'>SERVICIOS</a>
