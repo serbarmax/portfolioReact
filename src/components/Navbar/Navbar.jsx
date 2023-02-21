@@ -14,7 +14,7 @@ return (
                 </div>
            </div>
            <ul>
-                <li><a href='#mainheader' className='colorTexto'>HOME</a></li>
+                <li><a href='#mainHeader' className='colorTexto'>HOME</a></li>
                 <li><a href='#servicios'   className='colorTexto'>SERVICIOS</a></li>
                 <li><a href='#portfolio'    className='colorTexto'>PORTFOLIO</a></li>
                 <li><a href='#experiencia'   className='colorTexto'>EXPERIENCIA</a></li>
